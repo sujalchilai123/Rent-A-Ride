@@ -2,4 +2,4 @@
 
 ### It is a multipage website that shows different types cars like SUV, Economical, Luxury Cars etc. It allows user to navigate through different pages effortlessly.
 
-- Live link: https://github.com/sujalchilai123/Rent-A-Ride.git
+- Live link: [https://github.com/sujalchilai123/Rent-A-Ride.git](https://sujalchilai123.github.io/Rent-A-Ride/)
