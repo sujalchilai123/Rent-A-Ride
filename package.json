@@ -1,0 +1,20 @@
+{
+  "name": "rent-a-ride-mern",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "install:all": "npm --workspaces install",
+    "dev:server": "npm --workspace server run dev",
+    "dev:client": "npm --workspace client run dev",
+    "dev": "concurrently \"npm:dev:server\" \"npm:dev:client\"",
+    "build": "npm --workspace client run build",
+    "seed": "npm --workspace server run seed"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
